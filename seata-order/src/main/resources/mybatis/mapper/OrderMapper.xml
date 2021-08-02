@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java1234.mapper.OrderMapper">
+
+    <select id="createOrder" parameterType="com.java1234.entity.Order">
+        INSERT INTO t_order
+        VALUES (NULL, #{orderNo}, #{userId}, #{count}, #{amount}, #{remark})
+    </select>
+</mapper>
