@@ -1,5 +1,0 @@
-nacos启动脚本:
-sh /Users/mac/Downloads/nacos/bin/startup.sh -m standalone
-seata-server启动脚本
-sh /Users/mac/Downloads/seata-server-1.4.2/bin/seata-server.sh
-
